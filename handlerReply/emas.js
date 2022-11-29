@@ -9,7 +9,6 @@ module.exports = async () => {
     
     let msgBody = ''
     data.data.forEach(el => {
-      msgBody += "==========\n"
       msgBody += `Berat : ${el.berat}\n`
       msgBody += `Harga Dasar : ${el.hargaDasar}\n`
       msgBody += `Harga NPWP : ${el.hargaNPWP}\n`
