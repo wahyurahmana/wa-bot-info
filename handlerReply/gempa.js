@@ -19,7 +19,7 @@ module.exports = async () => {
     });
     return msgBody
   } catch (error) {
-    let err = 'Sebentar yaa Nelin Lagi Pusing'
+    let err = 'Sebentar yaa Nelin Lagi Pusing.'
     console.log(err)
   }
 }

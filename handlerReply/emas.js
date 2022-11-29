@@ -18,7 +18,7 @@ module.exports = async () => {
     msgBody += `${data.message}`
     return msgBody
   } catch (error) {
-    let err = 'Sebentar yaa Nelin Lagi Pusing'
+    let err = 'Sebentar yaa Nelin Lagi Pusing.'
     console.log(err)
   }
 }
